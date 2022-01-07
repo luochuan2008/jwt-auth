@@ -11,7 +11,6 @@
 
 Documentation for `1.*` [here](http://jwt-auth.com)
 
-For version `0.5.*` See the [WIKI](https://github.com/luochuandesigns/jwt-auth/wiki) for documentation.
 
 [<img src="https://user-images.githubusercontent.com/1801923/57975478-a7a88900-79c1-11e9-924b-d7fa742f743b.png" height="40">](https://www.patreon.com/bePatron?u=11815122)
 
@@ -28,5 +27,7 @@ If you discover any security related issues, please email luochuan148@gmail.com 
 ## License
 
 The MIT License (MIT)
+
+thank you for Tymon! This is a modified version of it
 
 [![SensioLabs Insight](https://insight.sensiolabs.com/projects/ba600082-7869-4ea8-b877-0bf6a86d4988/big.svg)](https://insight.sensiolabs.com/projects/ba600082-7869-4ea8-b877-0bf6a86d4988)
