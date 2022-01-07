@@ -22,7 +22,7 @@ If you want to easily add secure authentication to Laravel apps, feel free to ch
 
 ## Security
 
-If you discover any security related issues, please email luochuan148@gmail.com instead of using the issue tracker.
+If you discover any security related issues, please email 156356969@qq.com instead of using the issue tracker.
 
 ## License
 
