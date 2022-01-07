@@ -3,19 +3,19 @@
 /*
  * This file is part of jwt-auth.
  *
- * (c) Sean Tymon <tymon148@gmail.com>
+ * (c) Sean luochuan <luochuan148@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Tymon\JWTAuth\Http\Middleware;
+namespace luochuan\JWTAuth\Http\Middleware;
 
 use http\Client\Response;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpKernel\Exception\UnauthorizedHttpException;
-use Tymon\JWTAuth\Exceptions\JWTException;
-use Tymon\JWTAuth\JWTAuth;
+use luochuan\JWTAuth\Exceptions\JWTException;
+use luochuan\JWTAuth\JWTAuth;
 
 /** @deprecated */
 abstract class BaseMiddleware
@@ -23,14 +23,14 @@ abstract class BaseMiddleware
     /**
      * The JWT Authenticator.
      *
-     * @var \Tymon\JWTAuth\JWTAuth
+     * @var \luochuan\JWTAuth\JWTAuth
      */
     protected $auth;
 
     /**
      * Create a new BaseMiddleware instance.
      *
-     * @param  \Tymon\JWTAuth\JWTAuth  $auth
+     * @param  \luochuan\JWTAuth\JWTAuth  $auth
      *
      * @return void
      */

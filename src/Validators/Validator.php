@@ -3,17 +3,17 @@
 /*
  * This file is part of jwt-auth.
  *
- * (c) Sean Tymon <tymon148@gmail.com>
+ * (c) Sean luochuan <luochuan148@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Tymon\JWTAuth\Validators;
+namespace luochuan\JWTAuth\Validators;
 
-use Tymon\JWTAuth\Contracts\Validator as ValidatorContract;
-use Tymon\JWTAuth\Exceptions\JWTException;
-use Tymon\JWTAuth\Support\RefreshFlow;
+use luochuan\JWTAuth\Contracts\Validator as ValidatorContract;
+use luochuan\JWTAuth\Exceptions\JWTException;
+use luochuan\JWTAuth\Support\RefreshFlow;
 
 abstract class Validator implements ValidatorContract
 {

@@ -3,13 +3,13 @@
 /*
  * This file is part of jwt-auth.
  *
- * (c) Sean Tymon <tymon148@gmail.com>
+ * (c) Sean luochuan <luochuan148@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Tymon\JWTAuth\Providers\JWT;
+namespace luochuan\JWTAuth\Providers\JWT;
 
 use Exception;
 use Illuminate\Support\Collection;
@@ -28,9 +28,9 @@ use Lcobucci\JWT\Signer\Rsa\Sha256 as RS256;
 use Lcobucci\JWT\Signer\Rsa\Sha384 as RS384;
 use Lcobucci\JWT\Signer\Rsa\Sha512 as RS512;
 use ReflectionClass;
-use Tymon\JWTAuth\Contracts\Providers\JWT;
-use Tymon\JWTAuth\Exceptions\JWTException;
-use Tymon\JWTAuth\Exceptions\TokenInvalidException;
+use luochuan\JWTAuth\Contracts\Providers\JWT;
+use luochuan\JWTAuth\Exceptions\JWTException;
+use luochuan\JWTAuth\Exceptions\TokenInvalidException;
 
 class Lcobucci extends Provider implements JWT
 {
@@ -95,7 +95,7 @@ class Lcobucci extends Provider implements JWT
      *
      * @param  array  $payload
      *
-     * @throws \Tymon\JWTAuth\Exceptions\JWTException
+     * @throws \luochuan\JWTAuth\Exceptions\JWTException
      *
      * @return string
      */
@@ -121,7 +121,7 @@ class Lcobucci extends Provider implements JWT
      *
      * @param  string  $token
      *
-     * @throws \Tymon\JWTAuth\Exceptions\JWTException
+     * @throws \luochuan\JWTAuth\Exceptions\JWTException
      *
      * @return array
      */
@@ -145,7 +145,7 @@ class Lcobucci extends Provider implements JWT
     /**
      * Get the signer instance.
      *
-     * @throws \Tymon\JWTAuth\Exceptions\JWTException
+     * @throws \luochuan\JWTAuth\Exceptions\JWTException
      *
      * @return \Lcobucci\JWT\Signer
      */

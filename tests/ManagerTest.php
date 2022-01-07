@@ -3,51 +3,51 @@
 /*
  * This file is part of jwt-auth.
  *
- * (c) Sean Tymon <tymon148@gmail.com>
+ * (c) Sean luochuan <luochuan148@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Tymon\JWTAuth\Test;
+namespace luochuan\JWTAuth\Test;
 
 use Mockery;
-use Tymon\JWTAuth\Blacklist;
-use Tymon\JWTAuth\Claims\Collection;
-use Tymon\JWTAuth\Claims\Expiration;
-use Tymon\JWTAuth\Claims\IssuedAt;
-use Tymon\JWTAuth\Claims\Issuer;
-use Tymon\JWTAuth\Claims\JwtId;
-use Tymon\JWTAuth\Claims\NotBefore;
-use Tymon\JWTAuth\Claims\Subject;
-use Tymon\JWTAuth\Contracts\Providers\JWT;
-use Tymon\JWTAuth\Exceptions\JWTException;
-use Tymon\JWTAuth\Exceptions\TokenBlacklistedException;
-use Tymon\JWTAuth\Factory;
-use Tymon\JWTAuth\Manager;
-use Tymon\JWTAuth\Payload;
-use Tymon\JWTAuth\Token;
-use Tymon\JWTAuth\Validators\PayloadValidator;
+use luochuan\JWTAuth\Blacklist;
+use luochuan\JWTAuth\Claims\Collection;
+use luochuan\JWTAuth\Claims\Expiration;
+use luochuan\JWTAuth\Claims\IssuedAt;
+use luochuan\JWTAuth\Claims\Issuer;
+use luochuan\JWTAuth\Claims\JwtId;
+use luochuan\JWTAuth\Claims\NotBefore;
+use luochuan\JWTAuth\Claims\Subject;
+use luochuan\JWTAuth\Contracts\Providers\JWT;
+use luochuan\JWTAuth\Exceptions\JWTException;
+use luochuan\JWTAuth\Exceptions\TokenBlacklistedException;
+use luochuan\JWTAuth\Factory;
+use luochuan\JWTAuth\Manager;
+use luochuan\JWTAuth\Payload;
+use luochuan\JWTAuth\Token;
+use luochuan\JWTAuth\Validators\PayloadValidator;
 
 class ManagerTest extends AbstractTestCase
 {
     /**
-     * @var \Mockery\MockInterface|\Tymon\JWTAuth\Contracts\Providers\JWT
+     * @var \Mockery\MockInterface|\luochuan\JWTAuth\Contracts\Providers\JWT
      */
     protected $jwt;
 
     /**
-     * @var \Mockery\MockInterface|\Tymon\JWTAuth\Blacklist
+     * @var \Mockery\MockInterface|\luochuan\JWTAuth\Blacklist
      */
     protected $blacklist;
 
     /**
-     * @var \Mockery\MockInterface|\Tymon\JWTAuth\Factory
+     * @var \Mockery\MockInterface|\luochuan\JWTAuth\Factory
      */
     protected $factory;
 
     /**
-     * @var \Tymon\JWTAuth\Manager
+     * @var \luochuan\JWTAuth\Manager
      */
     protected $manager;
 

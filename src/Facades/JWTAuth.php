@@ -3,13 +3,13 @@
 /*
  * This file is part of jwt-auth.
  *
- * (c) Sean Tymon <tymon148@gmail.com>
+ * (c) Sean luochuan <luochuan148@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Tymon\JWTAuth\Facades;
+namespace luochuan\JWTAuth\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -22,6 +22,6 @@ class JWTAuth extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'tymon.jwt.auth';
+        return 'luochuan.jwt.auth';
     }
 }

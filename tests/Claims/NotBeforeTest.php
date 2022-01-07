@@ -3,17 +3,17 @@
 /*
  * This file is part of jwt-auth.
  *
- * (c) Sean Tymon <tymon148@gmail.com>
+ * (c) Sean luochuan <luochuan148@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Tymon\JWTAuth\Test\Claims;
+namespace luochuan\JWTAuth\Test\Claims;
 
-use Tymon\JWTAuth\Claims\NotBefore;
-use Tymon\JWTAuth\Exceptions\InvalidClaimException;
-use Tymon\JWTAuth\Test\AbstractTestCase;
+use luochuan\JWTAuth\Claims\NotBefore;
+use luochuan\JWTAuth\Exceptions\InvalidClaimException;
+use luochuan\JWTAuth\Test\AbstractTestCase;
 
 class NotBeforeTest extends AbstractTestCase
 {

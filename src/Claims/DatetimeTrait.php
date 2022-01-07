@@ -3,18 +3,18 @@
 /*
  * This file is part of jwt-auth.
  *
- * (c) Sean Tymon <tymon148@gmail.com>
+ * (c) Sean luochuan <luochuan148@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Tymon\JWTAuth\Claims;
+namespace luochuan\JWTAuth\Claims;
 
 use DateInterval;
 use DateTimeInterface;
-use Tymon\JWTAuth\Exceptions\InvalidClaimException;
-use Tymon\JWTAuth\Support\Utils;
+use luochuan\JWTAuth\Exceptions\InvalidClaimException;
+use luochuan\JWTAuth\Support\Utils;
 
 trait DatetimeTrait
 {
@@ -30,7 +30,7 @@ trait DatetimeTrait
      *
      * @param  mixed  $value
      *
-     * @throws \Tymon\JWTAuth\Exceptions\InvalidClaimException
+     * @throws \luochuan\JWTAuth\Exceptions\InvalidClaimException
      *
      * @return $this
      */

@@ -16,9 +16,9 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Sean Tymon",
-            "email": "tymon148@gmail.com",
-            "homepage": "https://tymon.xyz",
+            "name": "Sean luochuan",
+            "email": "luochuan148@gmail.com",
+            "homepage": "https://luochuan.xyz",
             "role": "Developer"
         }
     ],
@@ -42,12 +42,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Tymon\\JWTAuth\\": "src/"
+            "luochuan\\JWTAuth\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tymon\\JWTAuth\\Test\\": "tests/"
+            "luochuan\\JWTAuth\\Test\\": "tests/"
         }
     },
     "extra": {
@@ -67,7 +67,7 @@
     "funding": [
         {
             "type": "patreon",
-            "url": "https://www.patreon.com/seantymon"
+            "url": "https://www.patreon.com/seanluochuan"
         }
     ],
     "config": {

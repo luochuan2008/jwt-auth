@@ -3,27 +3,27 @@
 /*
  * This file is part of jwt-auth.
  *
- * (c) Sean Tymon <tymon148@gmail.com>
+ * (c) Sean luochuan <luochuan148@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Tymon\JWTAuth\Test\Http;
+namespace luochuan\JWTAuth\Test\Http;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Route;
 use Illuminate\Support\Facades\Crypt;
 use Mockery;
-use Tymon\JWTAuth\Contracts\Http\Parser as ParserContract;
-use Tymon\JWTAuth\Http\Parser\AuthHeaders;
-use Tymon\JWTAuth\Http\Parser\Cookies;
-use Tymon\JWTAuth\Http\Parser\InputSource;
-use Tymon\JWTAuth\Http\Parser\LumenRouteParams;
-use Tymon\JWTAuth\Http\Parser\Parser;
-use Tymon\JWTAuth\Http\Parser\QueryString;
-use Tymon\JWTAuth\Http\Parser\RouteParams;
-use Tymon\JWTAuth\Test\AbstractTestCase;
+use luochuan\JWTAuth\Contracts\Http\Parser as ParserContract;
+use luochuan\JWTAuth\Http\Parser\AuthHeaders;
+use luochuan\JWTAuth\Http\Parser\Cookies;
+use luochuan\JWTAuth\Http\Parser\InputSource;
+use luochuan\JWTAuth\Http\Parser\LumenRouteParams;
+use luochuan\JWTAuth\Http\Parser\Parser;
+use luochuan\JWTAuth\Http\Parser\QueryString;
+use luochuan\JWTAuth\Http\Parser\RouteParams;
+use luochuan\JWTAuth\Test\AbstractTestCase;
 
 class ParserTest extends AbstractTestCase
 {

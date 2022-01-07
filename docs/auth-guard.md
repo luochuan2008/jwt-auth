@@ -52,13 +52,13 @@ Get the currently authenticated user or throw an exception.
 ```php
 try {
     $user = auth()->userOrFail();
-} catch (\Tymon\JWTAuth\Exceptions\UserNotDefinedException $e) {
+} catch (\luochuan\JWTAuth\Exceptions\UserNotDefinedException $e) {
     // do something
 }
 
 ```
 
-If the user is not set, then a `Tymon\JWTAuth\Exceptions\UserNotDefinedException` will be thrown
+If the user is not set, then a `luochuan\JWTAuth\Exceptions\UserNotDefinedException` will be thrown
 
 ### logout()
 

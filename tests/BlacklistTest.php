@@ -3,41 +3,41 @@
 /*
  * This file is part of jwt-auth.
  *
- * (c) Sean Tymon <tymon148@gmail.com>
+ * (c) Sean luochuan <luochuan148@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Tymon\JWTAuth\Test;
+namespace luochuan\JWTAuth\Test;
 
 use Mockery;
-use Tymon\JWTAuth\Blacklist;
-use Tymon\JWTAuth\Claims\Collection;
-use Tymon\JWTAuth\Claims\Expiration;
-use Tymon\JWTAuth\Claims\IssuedAt;
-use Tymon\JWTAuth\Claims\Issuer;
-use Tymon\JWTAuth\Claims\JwtId;
-use Tymon\JWTAuth\Claims\NotBefore;
-use Tymon\JWTAuth\Claims\Subject;
-use Tymon\JWTAuth\Contracts\Providers\Storage;
-use Tymon\JWTAuth\Payload;
-use Tymon\JWTAuth\Validators\PayloadValidator;
+use luochuan\JWTAuth\Blacklist;
+use luochuan\JWTAuth\Claims\Collection;
+use luochuan\JWTAuth\Claims\Expiration;
+use luochuan\JWTAuth\Claims\IssuedAt;
+use luochuan\JWTAuth\Claims\Issuer;
+use luochuan\JWTAuth\Claims\JwtId;
+use luochuan\JWTAuth\Claims\NotBefore;
+use luochuan\JWTAuth\Claims\Subject;
+use luochuan\JWTAuth\Contracts\Providers\Storage;
+use luochuan\JWTAuth\Payload;
+use luochuan\JWTAuth\Validators\PayloadValidator;
 
 class BlacklistTest extends AbstractTestCase
 {
     /**
-     * @var \Tymon\JWTAuth\Contracts\Providers\Storage|\Mockery\MockInterface
+     * @var \luochuan\JWTAuth\Contracts\Providers\Storage|\Mockery\MockInterface
      */
     protected $storage;
 
     /**
-     * @var \Tymon\JWTAuth\Blacklist
+     * @var \luochuan\JWTAuth\Blacklist
      */
     protected $blacklist;
 
     /**
-     * @var \Mockery\MockInterface|\Tymon\JWTAuth\Validators\Validator
+     * @var \Mockery\MockInterface|\luochuan\JWTAuth\Validators\Validator
      */
     protected $validator;
 

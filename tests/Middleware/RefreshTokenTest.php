@@ -3,25 +3,25 @@
 /*
  * This file is part of jwt-auth.
  *
- * (c) Sean Tymon <tymon148@gmail.com>
+ * (c) Sean luochuan <luochuan148@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Tymon\JWTAuth\Test\Middleware;
+namespace luochuan\JWTAuth\Test\Middleware;
 
 use Illuminate\Http\Response;
 use Mockery;
 use Symfony\Component\HttpKernel\Exception\UnauthorizedHttpException;
-use Tymon\JWTAuth\Exceptions\TokenInvalidException;
-use Tymon\JWTAuth\Http\Middleware\RefreshToken;
-use Tymon\JWTAuth\Http\Parser\Parser;
+use luochuan\JWTAuth\Exceptions\TokenInvalidException;
+use luochuan\JWTAuth\Http\Middleware\RefreshToken;
+use luochuan\JWTAuth\Http\Parser\Parser;
 
 class RefreshTokenTest extends AbstractMiddlewareTest
 {
     /**
-     * @var \Tymon\JWTAuth\Http\Middleware\RefreshToken
+     * @var \luochuan\JWTAuth\Http\Middleware\RefreshToken
      */
     protected $middleware;
 

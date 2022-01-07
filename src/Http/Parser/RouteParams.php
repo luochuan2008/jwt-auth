@@ -3,16 +3,16 @@
 /*
  * This file is part of jwt-auth.
  *
- * (c) Sean Tymon <tymon148@gmail.com>
+ * (c) Sean luochuan <luochuan148@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Tymon\JWTAuth\Http\Parser;
+namespace luochuan\JWTAuth\Http\Parser;
 
 use Illuminate\Http\Request;
-use Tymon\JWTAuth\Contracts\Http\Parser as ParserContract;
+use luochuan\JWTAuth\Contracts\Http\Parser as ParserContract;
 
 class RouteParams implements ParserContract
 {

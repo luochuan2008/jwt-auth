@@ -3,13 +3,13 @@
 /*
  * This file is part of jwt-auth.
  *
- * (c) Sean Tymon <tymon148@gmail.com>
+ * (c) Sean luochuan <luochuan148@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Tymon\JWTAuth\Contracts;
+namespace luochuan\JWTAuth\Contracts;
 
 interface Claim
 {
@@ -18,7 +18,7 @@ interface Claim
      *
      * @param  mixed  $value
      *
-     * @throws \Tymon\JWTAuth\Exceptions\InvalidClaimException
+     * @throws \luochuan\JWTAuth\Exceptions\InvalidClaimException
      *
      * @return $this
      */

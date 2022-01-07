@@ -3,15 +3,15 @@
 /*
  * This file is part of jwt-auth.
  *
- * (c) Sean Tymon <tymon148@gmail.com>
+ * (c) Sean luochuan <luochuan148@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Tymon\JWTAuth\Test\Stubs;
+namespace luochuan\JWTAuth\Test\Stubs;
 
-use Tymon\JWTAuth\Providers\Storage\Illuminate as Storage;
+use luochuan\JWTAuth\Providers\Storage\Illuminate as Storage;
 
 class TaggedStorage extends Storage
 {

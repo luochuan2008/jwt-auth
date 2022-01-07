@@ -3,16 +3,16 @@
 /*
  * This file is part of jwt-auth.
  *
- * (c) Sean Tymon <tymon148@gmail.com>
+ * (c) Sean luochuan <luochuan148@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Tymon\JWTAuth\Providers;
+namespace luochuan\JWTAuth\Providers;
 
-use Tymon\JWTAuth\Http\Parser\Cookies;
-use Tymon\JWTAuth\Http\Parser\RouteParams;
+use luochuan\JWTAuth\Http\Parser\Cookies;
+use luochuan\JWTAuth\Http\Parser\RouteParams;
 
 class LaravelServiceProvider extends AbstractServiceProvider
 {
@@ -30,7 +30,7 @@ class LaravelServiceProvider extends AbstractServiceProvider
 
         $this->extendAuthGuard();
 
-        $this->app['tymon.jwt.parser']->addParser([
+        $this->app['luochuan.jwt.parser']->addParser([
             new RouteParams,
             new Cookies($this->config('decrypt_cookies')),
         ]);
@@ -41,7 +41,7 @@ class LaravelServiceProvider extends AbstractServiceProvider
      */
     protected function registerStorageProvider()
     {
-        $this->app->singleton('tymon.jwt.provider.storage', function () {
+        $this->app->singleton('luochuan.jwt.provider.storage', function () {
             $instance = $this->getConfigInstance('providers.storage');
 
             if (method_exists($instance, 'setLaravelVersion')) {

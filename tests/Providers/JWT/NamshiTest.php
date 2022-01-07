@@ -3,22 +3,22 @@
 /*
  * This file is part of jwt-auth.
  *
- * (c) Sean Tymon <tymon148@gmail.com>
+ * (c) Sean luochuan <luochuan148@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Tymon\JWTAuth\Test\Providers\JWT;
+namespace luochuan\JWTAuth\Test\Providers\JWT;
 
 use Exception;
 use InvalidArgumentException;
 use Mockery;
 use Namshi\JOSE\JWS;
-use Tymon\JWTAuth\Exceptions\JWTException;
-use Tymon\JWTAuth\Exceptions\TokenInvalidException;
-use Tymon\JWTAuth\Providers\JWT\Namshi;
-use Tymon\JWTAuth\Test\AbstractTestCase;
+use luochuan\JWTAuth\Exceptions\JWTException;
+use luochuan\JWTAuth\Exceptions\TokenInvalidException;
+use luochuan\JWTAuth\Providers\JWT\Namshi;
+use luochuan\JWTAuth\Test\AbstractTestCase;
 
 class NamshiTest extends AbstractTestCase
 {
@@ -28,7 +28,7 @@ class NamshiTest extends AbstractTestCase
     protected $jws;
 
     /**
-     * @var \Tymon\JWTAuth\Providers\JWT\Namshi
+     * @var \luochuan\JWTAuth\Providers\JWT\Namshi
      */
     protected $provider;
 

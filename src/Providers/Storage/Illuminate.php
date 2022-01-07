@@ -3,18 +3,18 @@
 /*
  * This file is part of jwt-auth.
  *
- * (c) Sean Tymon <tymon148@gmail.com>
+ * (c) Sean luochuan <luochuan148@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Tymon\JWTAuth\Providers\Storage;
+namespace luochuan\JWTAuth\Providers\Storage;
 
 use BadMethodCallException;
 use Illuminate\Contracts\Cache\Repository as CacheContract;
 use Psr\SimpleCache\CacheInterface as PsrCacheInterface;
-use Tymon\JWTAuth\Contracts\Providers\Storage;
+use luochuan\JWTAuth\Contracts\Providers\Storage;
 
 class Illuminate implements Storage
 {
@@ -30,7 +30,7 @@ class Illuminate implements Storage
      *
      * @var string
      */
-    protected $tag = 'tymon.jwt';
+    protected $tag = 'luochuan.jwt';
 
     /**
      * @var bool

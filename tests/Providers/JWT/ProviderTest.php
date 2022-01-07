@@ -3,21 +3,21 @@
 /*
  * This file is part of jwt-auth.
  *
- * (c) Sean Tymon <tymon148@gmail.com>
+ * (c) Sean luochuan <luochuan148@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Tymon\JWTAuth\Test\Providers\JWT;
+namespace luochuan\JWTAuth\Test\Providers\JWT;
 
-use Tymon\JWTAuth\Test\AbstractTestCase;
-use Tymon\JWTAuth\Test\Stubs\JWTProviderStub;
+use luochuan\JWTAuth\Test\AbstractTestCase;
+use luochuan\JWTAuth\Test\Stubs\JWTProviderStub;
 
 class ProviderTest extends AbstractTestCase
 {
     /**
-     * @var \Tymon\JWTAuth\Test\Stubs\JWTProviderStub
+     * @var \luochuan\JWTAuth\Test\Stubs\JWTProviderStub
      */
     protected $provider;
 
